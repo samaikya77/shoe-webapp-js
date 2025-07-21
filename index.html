@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe page</title>
+</head>
+<body>
+    <div id ="parent" >
+        <div id ="child">
+            <div id="left" >
+                <img id="img"src="shoe.png" alt="">
+            </div>
+            <div id="right">
+                <span id ="first">
+                <span id = "content">Airmax </span></br>
+               <span  id="content2">Winter Collection</span></br>
+                <span  id="content3">Men Black Sneakers</span></br>
+                <span  id="content4">150 <span style="padding: 0 15px;" ></span> <del>200  </del></span></br>
+                <span  id="content5">SIZE 7 8 9 10 11</span></br>
+                <span  id="content6">COLOR
+                <span class="color-box color-yellow"></span>
+                <span class="color-box color-black"></span>
+                <span class="color-box color-blue"></span></span>
+                <span id="content7">Buy Now <span style="padding: 0 15px;"></span> Add To Cart</span>
+
+            </span>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    body{
+       align-items: center;
+       display:flex;
+       justify-content: center;
+       
+    }
+
+    
+    
+    #parent{
+        height:700px;
+        width:700px;
+        border:solid black;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background:url("bg.png") ;
+    }
+    #child{
+        height: 600px;
+        width:600px;
+        border:solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(12, 25, 70);
+        
+    }
+    #left{
+        height: 600px;
+        width: 325px;
+        border-radius:0px 50% 50% 0px;
+        background-color: orangered;
+    }
+    #right{
+        height: 600px;
+        width: 325px;
+        background-color: rgb(12, 25, 70);
+        
+    }
+    
+    #content{
+        color:white;
+        font-weight: bold;
+        font-size: 40px;
+        justify-content: start;
+        align-items: center;
+        display:flex;
+        padding-bottom: 130px;
+        color: orangered;
+
+        
+        
+
+    }
+    #content2{
+        color:white;
+        font-size: 20px;
+        display: flex;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+    }
+    #content3{
+        color:white;
+        font-weight: bold;
+        font-size:25px;
+        display: flex;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        
+        
+    }
+    #content4{
+        color:white;
+        display: flex;
+        margin-left: 10px;  
+        font-weight: bold;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+    }
+
+    #content5{
+        color:white;
+        display: flex;
+        margin-left: 10px;
+        word-spacing: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+    }
+
+    #content6{
+        color:white;
+        display: flex;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+       
+
+    }
+    .color-box {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            border-radius: 50%;
+            margin-right: 15px;
+            margin-left: 15px;
+            margin-bottom: 20px;
+            
+        }
+        .color-yellow { background-color: yellow; }
+        .color-black { background-color: black; }
+        .color-blue { background-color: blue; }
+    
+
+    #content7{
+        color:white;
+        display: flex;
+        margin-left: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+  
+    }
+    #img{
+        width: 430px;
+        height: 400px;
+        margin-top: 150px;
+        position: relative;
+        left: -70px;
+        
+    }
+   
+    
+</style>
+</html>
